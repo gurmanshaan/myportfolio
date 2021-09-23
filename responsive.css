@@ -1,0 +1,65 @@
+@media screen and (max-width: 398px) {
+  .navigation {
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 3px; */
+    justify-content: center;
+  }
+
+  .nav-brand {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 377px) and (min-width: 320px) {
+  /* .navigation{    
+        background: black;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        justify-content: center;
+    } */
+
+  .nav-pills {
+    /* display: flex; */
+    /* flex-direction: row; */
+    text-align: center;
+  }
+
+  .nav-brand {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-width:320px)  {
+  /* .container {
+    width: 100vw;
+  }
+  .footer {
+    width: 100vw;
+  } */
+  .nav-pills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  .link {
+    font-size: smaller;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .navigation {
+    width: 100vw;
+  }
+  .hero-img {
+    width:200px;
+  }
+  .footer {
+    width: 100vw;
+  }
+}
