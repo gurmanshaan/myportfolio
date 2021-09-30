@@ -4,6 +4,8 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
   padding: 0px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 :root {
@@ -34,12 +36,18 @@ hr {
   background-color: var(--primary-color);
   border-radius: 0.5rem;
   color: white;
+  display: block;
+  text-align: center;
+  margin:0 230px;
 }
 
 .secondary-link {
   color: var(--primary-color);
   border-radius: 0.5rem;
   border: 1px solid var(--primary-color);
+  display: block;
+  text-align: center;
+  margin:0 230px;
 }
 
 .list-non-bullet {
@@ -54,9 +62,9 @@ hr {
 .navigation {
   background-color: var(--primary-color);
   color: white;
-  width: 100vw;
+  width: 100%;
   padding: 1rem;
-  border-bottom-left-radius: 1rem;
+  /* border-bottom-left-radius: 1rem; */
 }
 
 .navigation .nav-brand {
@@ -103,17 +111,18 @@ hr {
   text-align: center;
 }
 
-.ow {
+/* .ow {
   background-color: var(--off-white);
-}
+  width: 100vw;
+} */
 
 .footer {
   background-color: var(--primary-color);
   padding: 2rem 1rem;
   text-align: center;
-  width: 100vw;
+
   color: white;
-  border-top-right-radius: 1rem;
+  /* border-top-right-radius: 1rem; */
 }
 
 .footer .link {
