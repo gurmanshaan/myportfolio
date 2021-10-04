@@ -18,7 +18,6 @@ body {
 }
 
 .container {
-  /* overflow-y: scroll; */
   height: 100vh;
 }
 .navigation {
@@ -61,37 +60,29 @@ a:hover {
 main {
   display: flex;
   flex-direction: column;
-  /* height: 80vh; */
 }
 .intro {
   display: flex;
   flex-direction: row;
-  /* background: brown; */
 }
 
 .left {
-  /* background: coral; */
   width: 50vw;
   display: flex;
   flex-direction: column;
-  /* height: 80vh; */
 }
 .right {
   width: 50vw;
-  /* height: 80vh; */
-  /* background: darkcyan; */
   display: flex;
   flex-direction: column;
 }
 
 .img {
-  /* background: chartreuse; */
   height: 385px;
   align-self: center;
   padding-top: 100px;
 }
 .main-img {
-  /* margin-left: 52px; */
   width: 270px;
 }
 
@@ -133,39 +124,10 @@ main {
   color: var(--primary-color);
 }
 
-/* .blogs{
-  padding-bottom: 1px;
-  padding-top: 2px;
-} */
-
 .blogs h1 {
   padding-bottom: 5px;
   color: var(--primary-color);
 }
-
-/* .nextproject {
-  text-align: center;
-  margin: 10px;
-} */
-
-/* .nextblog {
-  text-align: center;
-  margin: 10px;
-} */
-/* .info {
-  align-self: center;
-  font-size: larger;
-} */
-
-/* .picture {
-  align-self: center;
-} */
-
-/* .hero-img {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 250px;
-} */
 
 .title {
   align-self: center;
@@ -214,7 +176,6 @@ section a:hover {
 }
 
 .nextpage {
-  /* display: block; */
   text-align: center;
   margin: 10px;
 }
@@ -223,10 +184,6 @@ section a:hover {
   display: flex;
   flex-direction: column;
 }
-
-/* .blog p {
-  width: 35vw;
-} */
 
 small {
   text-align: center;
@@ -239,9 +196,3 @@ small {
   background: var(--primary-color);
   min-height: 13vh;
 }
-
-/* .contact {
-  color: var(--off-white);
-  font-weight: bold;
-  font-size: large;
-} */
